@@ -54,35 +54,35 @@ This repository demonstrates how Snowflake transforms cybersecurity operations t
 │  └─────────────┘ └──────────────┘ └─────────────┘ └─────────────┘│
 └──────────────────────────────────────────────────────────────────┘
                                   │
-┌─────────────────────────────────────────────────────────────────┐
-│                 Dual ML Analytics Layer                         │
-│  ┌──────────────────────┐              ┌─────────────────────┐  │
-│  │   Native ML Models   │              │   Snowpark ML       │  │
-│  │                      │              │                     │  │
-│  │ • Time-series        │              │ • Isolation Forest  │  │
-│  │ • User behavior      │              │ • K-means clusters  │  │
-│  │ • Network patterns   │              │ • Custom algorithms │  │
-│  │ • Built-in confidence│              │ • Python models     │  │
-│  └──────────────────────┘              └─────────────────────┘  │
-│                    ┌──────────────────────┐                     │
-│                    │ Hybrid ML Analytics  │                     │
-│                    │ • Model comparison   │                     │
-│                    │ • Agreement analysis │                     │
-│                    │ • Combined confidence│                     │
-│                    └──────────────────────┘                     │
-└─────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────┐
+│                 Dual ML Analytics Layer                          │
+│  ┌──────────────────────┐               ┌─────────────────────┐  │
+│  │   Native ML Models   │               │   Snowpark ML       │  │
+│  │                      │               │                     │  │
+│  │ • Time-series        │               │ • Isolation Forest  │  │
+│  │ • User behavior      │               │ • K-means clusters  │  │
+│  │ • Network patterns   │               │ • Custom algorithms │  │
+│  │ • Built-in confidence│               │ • Python models     │  │
+│  └──────────────────────┘               └─────────────────────┘  │
+│                     ┌──────────────────────┐                     │
+│                     │ Hybrid ML Analytics  │                     │
+│                     │ • Model comparison   │                     │
+│                     │ • Agreement analysis │                     │
+│                     │ • Combined confidence│                     │
+│                     └──────────────────────┘                     │
+└──────────────────────────────────────────────────────────────────┘
                                   │
-┌─────────────────────────────────────────────────────────────────┐
-│                Enhanced Security Data Platform                  │
-│  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐│
-│  │ 500+ Users  │ │ 180+ Days   │ │ Seasonal    │ │ Persona     ││
-│  │ Auth Logs   │ │ Time Series │ │ Patterns    │ │ Modeling    ││
-│  └─────────────┘ └─────────────┘ └─────────────┘ └─────────────┘│
-│  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐│
-│  │ Network     │ │ Vulnerabil. │ │ Financial   │ │ Threat      ││
-│  │ Security    │ │ Scans       │ │ Transactions│ │ Intelligence││
-│  └─────────────┘ └─────────────┘ └─────────────┘ └─────────────┘│
-└─────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────┐
+│                Enhanced Security Data Platform                   │
+│  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ │
+│  │ 500+ Users  │ │ 180+ Days   │ │ Seasonal    │ │ Persona     │ │
+│  │ Auth Logs   │ │ Time Series │ │ Patterns    │ │ Modeling    │ │
+│  └─────────────┘ └─────────────┘ └─────────────┘ └─────────────┘ │
+│  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ │
+│  │ Network     │ │ Vulnerabil. │ │ Financial   │ │ Threat      │ │
+│  │ Security    │ │ Scans       │ │ Transactions│ │ Intelligence│ │
+│  └─────────────┘ └─────────────┘ └─────────────┘ └─────────────┘ │
+└──────────────────────────────────────────────────────────────────┘
 ```
 
 ## 📁 Repository Structure
