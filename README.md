@@ -42,34 +42,34 @@ This repository demonstrates how Snowflake transforms cybersecurity operations t
 ## 🏗️ Enhanced ML Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                    Streamlit in Snowflake                      │
-│  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐│
-│  │ Executive   │ │ Native ML   │ │ Snowpark ML │ │ ML Model    ││
-│  │ Dashboard   │ │ Anomalies   │ │ Clustering  │ │ Comparison  ││
-│  └─────────────┘ └─────────────┘ └─────────────┘ └─────────────┘│
-│  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐│
+┌──────────────────────────────────────────────────────────────────┐
+│                    Streamlit in Snowflake                        │
+│  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ │
+│  │ Executive   │ │ Native ML   │ │ Snowpark ML │ │ ML Model    │ │
+│  │ Dashboard   │ │ Anomalies   │ │ Clustering  │ │ Comparison  │ │
+│  └─────────────┘ └─────────────┘ └─────────────┘ └─────────────┘ │
+│  ┌─────────────┐ ┌──────────────┐ ┌─────────────┐ ┌─────────────┐│
 │  │ Threat      │ │ Vulnerability│ │ Fraud       │ │ Security    ││
-│  │ Hunting     │ │ Management  │ │ Detection   │ │ Chatbot     ││
-│  └─────────────┘ └─────────────┘ └─────────────┘ └─────────────┘│
-└─────────────────────────────────────────────────────────────────┘
+│  │ Hunting     │ │ Management   │ │ Detection   │ │ Chatbot     ││
+│  └─────────────┘ └──────────────┘ └─────────────┘ └─────────────┘│
+└──────────────────────────────────────────────────────────────────┘
                                   │
 ┌─────────────────────────────────────────────────────────────────┐
-│                 Dual ML Analytics Layer                        │
-│  ┌─────────────────────┐              ┌─────────────────────┐   │
-│  │   Native ML Models  │              │   Snowpark ML       │   │
-│  │                     │              │                     │   │
-│  │ • Time-series       │              │ • Isolation Forest  │   │
-│  │ • User behavior     │              │ • K-means clusters  │   │
-│  │ • Network patterns  │              │ • Custom algorithms │   │
-│  │ • Built-in confidence│              │ • Python models    │   │
-│  └─────────────────────┘              └─────────────────────┘   │
-│                    ┌─────────────────────┐                      │
-│                    │ Hybrid ML Analytics │                      │
-│                    │ • Model comparison  │                      │
-│                    │ • Agreement analysis│                      │
+│                 Dual ML Analytics Layer                         │
+│  ┌──────────────────────┐              ┌─────────────────────┐  │
+│  │   Native ML Models   │              │   Snowpark ML       │  │
+│  │                      │              │                     │  │
+│  │ • Time-series        │              │ • Isolation Forest  │  │
+│  │ • User behavior      │              │ • K-means clusters  │  │
+│  │ • Network patterns   │              │ • Custom algorithms │  │
+│  │ • Built-in confidence│              │ • Python models     │  │
+│  └──────────────────────┘              └─────────────────────┘  │
+│                    ┌──────────────────────┐                     │
+│                    │ Hybrid ML Analytics  │                     │
+│                    │ • Model comparison   │                     │
+│                    │ • Agreement analysis │                     │
 │                    │ • Combined confidence│                     │
-│                    └─────────────────────┘                      │
+│                    └──────────────────────┘                     │
 └─────────────────────────────────────────────────────────────────┘
                                   │
 ┌─────────────────────────────────────────────────────────────────┐
@@ -128,23 +128,23 @@ Ready to deploy? Get started in **15 minutes**:
 
 ## 🎬 Demo Scenarios
 
-| **Format** | **Duration** | **Best For** | **Key Focus** |
-|------------|-------------|-------------|---------------|
-| **⚡ Executive Summary** | 5 min | C-level | ROI, cost savings, business value |
-| **🔧 Technical Overview** | 15-30 min | Technical teams | AI/ML architecture, capabilities |  
-| **🧪 Interactive Workshop** | 45+ min | Hands-on | Custom analytics, live investigation |
+| **Format**                 | **Duration** | **Best For**    | **Key Focus**                        |
+| -------------------------- | ------------ | --------------- | ------------------------------------ |
+| **👩‍💼 Executive Summary**    | 5 min        | C-level         | ROI, cost savings, business value    |
+| **🔧 Technical Overview**   | 15-30 min    | Technical teams | AI/ML architecture, capabilities     |
+| **🧪 Interactive Workshop** | 45+ min      | Hands-on        | Custom analytics, live investigation |
 
 👉 **[Complete Demo Guide](docs/DEMO_GUIDE.md)** - Detailed talking points, technical deep-dives, and presentation flow
 
 ## 📊 Key Metrics & Value Propositions
 
-| Metric | Traditional SIEM | Snowflake Security Platform |
-|--------|------------------|----------------------------|
-| **Storage Cost** | $50,000+ per TB/year | $240 per TB/year |
-| **Query Performance** | 30-60 seconds | <2 seconds |
-| **Data Retention** | 90 days typical | 7+ years affordable |
-| **Scaling** | Manual, expensive | Auto-scaling, elastic |
-| **Total Cost Savings** | Baseline | **99.5% reduction** |
+| Metric                 | Traditional SIEM     | Snowflake Security Platform |
+| ---------------------- | -------------------- | --------------------------- |
+| **Storage Cost**       | $50,000+ per TB/year | $240 per TB/year            |
+| **Query Performance**  | 30-60 seconds        | <2 seconds                  |
+| **Data Retention**     | 90 days typical      | 7+ years affordable         |
+| **Scaling**            | Manual, expensive    | Auto-scaling, elastic       |
+| **Total Cost Savings** | Baseline             | **99.5% reduction**         |
 
 ## 🔍 Sample Analytics Queries
 
@@ -196,11 +196,11 @@ ALTER TABLE NETWORK_SECURITY_LOGS ADD SEARCH OPTIMIZATION ON EQUALITY(SOURCE_IP)
 Extend the platform with your own models using the ML training notebook as a template. Add new algorithms, features, or data sources following the established patterns.
 
 ### **🎯 Demo Customization**
-| **Audience** | **Focus Areas** | **Key Messages** |
-|-------------|----------------|------------------|
-| **Sales Teams** | Cost savings, ROI, marketplace | 99.5% cost reduction vs traditional SIEM |
-| **Technical Teams** | Architecture, performance, scalability | Sub-second queries on TBs of data |
-| **Security Teams** | Threat hunting, incident response, compliance | Minutes vs hours for investigation |
+| **Audience**        | **Focus Areas**                               | **Key Messages**                         |
+| ------------------- | --------------------------------------------- | ---------------------------------------- |
+| **Sales Teams**     | Cost savings, ROI, marketplace                | 99.5% cost reduction vs traditional SIEM |
+| **Technical Teams** | Architecture, performance, scalability        | Sub-second queries on TBs of data        |
+| **Security Teams**  | Threat hunting, incident response, compliance | Minutes vs hours for investigation       |
 
 👉 **[Enhancement Roadmap](enhancement_roadmap.md)** - Priority roadmap for future enhancements
 
